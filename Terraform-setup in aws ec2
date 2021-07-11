@@ -1,0 +1,9 @@
+wget https://releases.hashicorp.com/terraform/1.0.2/terraform_1.0.2_linux                                                                                       _amd64.zip
+ls
+unzip terraform_1.0.2_linux_amd64.zip
+ls
+terrafrom
+./terraform
+pwd
+echo $"export PATH=\$PATH:$(pwd)" >> ~/.bash_profile
+source ~/.bash_profile
